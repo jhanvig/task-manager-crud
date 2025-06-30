@@ -68,30 +68,28 @@ mvn spring-boot:run
 
 ## Sample API Endpoints
 **Board**
-POST /api/boards – Create board
+POST /api/boards/make – Create board
 
-GET /api/boards – List all boards
+GET /api/boards/all – List all boards
 
 GET /api/boards/{id} – Get board by ID
-
-PUT /api/boards/{id} – Update board
 
 DELETE /api/boards/{id} – Delete board
 
 **Task List**
-POST /api/boards/{boardId}/lists – Add list to board
+POST /api/boards/{boardId}/make – Add list to board
 
-GET /api/boards/{boardId}/lists – Get lists on a board
+GET /api/boards/{boardId}/all – Get lists on a board
 
 Task
-POST /api/lists/{listId}/tasks – Create a task in a list
+POST /api/lists/{listId}/make – Create a task in a list
 
 PUT /api/tasks/{id}/assign/{userId} – Assign user to task
 
 **User**
-POST /api/users – Add user
+POST /api/users/make – Add user
 
-GET /api/users – View all users
+GET /api/users/all – View all users
 
 ## Notes
 Default in-memory database is H2.
