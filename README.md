@@ -103,7 +103,8 @@ spring.datasource.password=yourpassword
 🙋‍♀️ Author
 Jhanvi Gopal
 📧 jhanugopal11@gmail.com
-📌 GitHub: @yourusername
+📌 GitHub: @jhanvig
+
 
 
 
