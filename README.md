@@ -111,11 +111,12 @@ spring.datasource.username=root
 spring.datasource.password=yourpassword
 ```
 
-🙋‍♀️ Author
+🙋‍♀️ **Author**
 Jhanvi Gopal
+```
 📧 jhanugopal11@gmail.com
 📌 GitHub: @jhanvig
-
+```
 
 
 
