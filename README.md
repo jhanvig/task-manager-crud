@@ -77,14 +77,14 @@ GET /api/boards/{id} – Get board by ID
 DELETE /api/boards/{id} – Delete board
 
 **Task List**
-POST /api/boards/{boardId}/make – Add list to board
+POST /api/tasklists/create – Add list to board
 
-GET /api/boards/{boardId}/all – Get lists on a board
+GET /api/tasklists/all – Get lists on a board
 
 Task
-POST /api/lists/{listId}/make – Create a task in a list
+POST /api/task/make – Create a task in a list
 
-PUT /api/tasks/{id}/assign/{userId} – Assign user to task
+PUT /api/tasks/by-assignee/{userId}– Assign user to task
 
 **User**
 POST /api/users/make – Add user
