@@ -98,9 +98,11 @@ GET /api/users/all – View all users
 ## Notes
 Default in-memory database is H2.
 To use MySQL, update application.properties:
+```
 spring.datasource.url=jdbc:mysql://localhost:3306/taskmanager
 spring.datasource.username=root
 spring.datasource.password=yourpassword
+```
 
 🙋‍♀️ Author
 Jhanvi Gopal
