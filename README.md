@@ -26,8 +26,21 @@ A lightweight **Task Manager Tool** built with Spring Boot. This application sup
 ---
 
 ## 📁 Project Structure
-
-<pre lang="text"><code> 📁 task-manager/ ├── src/ │ └── main/ │ ├── java/ │ │ └── com/example/taskmanager/ │ │ ├── controller/ │ │ ├── service/ │ │ ├── model/ │ │ ├── repository/ │ │ └── TaskManagerApplication.java │ └── resources/ │ └── application.properties ├── pom.xml </code></pre>
+```
+task-manager/
+├── src/
+│ └── main/
+│ ├── java/
+│ │ └── com/example/taskmanager/
+│ │ ├── controller/
+│ │ ├── service/
+│ │ ├── model/
+│ │ ├── repository/
+│ │ └── TaskManagerApplication.java
+│ └── resources/
+│ └── application.properties
+├── pom.xml
+```
 
 ## ⚙️ Setup Instructions
 
